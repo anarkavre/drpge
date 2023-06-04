@@ -13,4 +13,4 @@ else()
 	add_executable(drpg ${SOURCE_FILES})
 endif()
 
-target_link_libraries(drpge ${SDL2_LIBRARIES})
+target_link_libraries(drpge SDL2::SDL2 SDL2::SDL2main)
